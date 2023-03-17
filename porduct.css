@@ -317,12 +317,37 @@ img{
 
 /* Media Queries */
 /* Media Queries */
+@media screen and (min-width: 390px){
+    .products-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .topnav-right{
+        display: none;
+    }
+    .lfetHeader{
+        width: 50%;
+   
+    }
+    .lfetHeader a button{
+      font-size: 10px;
+      width: 50%;
+      
+    }
+    .reghtHeader{
+        width: 50%;
+    }
+}
 
 @media screen and (min-width: 600px){
     .products-items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .topnav-right{
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 900px){
